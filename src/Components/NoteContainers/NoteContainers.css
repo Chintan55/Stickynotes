@@ -1,0 +1,20 @@
+.Note-containers {
+  height: 100%;
+}
+.Note-containers-notes {
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-y: auto;
+}
+.no-notes {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: gray;
+  margin-top: 50px;
+}
+.Note-containers h2 {
+  margin: 8px 0 10px 0;
+}
